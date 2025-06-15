@@ -5,7 +5,9 @@
 
 ## 🐳 Docker Instructions
 docker build -t aetna-code-test .
+
 docker run -d -p 3000:3000 --name aetna-code-test aetna-code-test
+
 curl http://localhost:3000
 
 ## Testing Instructions
